@@ -5,12 +5,15 @@ import SymptomChecker from './components/SymptomChecker/SymptomChecker';
 import DiseaseInfo from './components/DiseaseInfo/DiseaseInfo';
 import AdminDashboard from './components/AdminDashboard/AdminDashboard';
 import AppointmentManager from './components/AppointmentManager/AppointmentManager';
+import DarkModeToggle from './components/DarkModeToggle/DarkModeToggle';
+
 import './App.css';
 
 const App = () => {
   return (
     <Router>
       <div className="App">
+        <DarkModeToggle />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/symptom-checker" element={<SymptomChecker />} />
