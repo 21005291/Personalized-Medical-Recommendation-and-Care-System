@@ -4,9 +4,9 @@ The Personalized Medical Recommendation and Care System is an advanced healthcar
 
 ### Run Application in your Machine
 
-Install Node.js and npm from nodejs.org.
-Open a terminal and navigate to your React project folder.
-Run npm install to install dependencies.
-Start the app with npm start.
-Open http://localhost:3000 in a browser to view the app.
-Press Ctrl + C in the terminal to stop the server when done.
+- Install **Node.js** and **npm** from [nodejs.org](https://nodejs.org/).
+- Open a terminal and navigate to your React project folder.
+- Run `npm install` to install dependencies.
+- Start the app with `npm start`.
+- Open **http://localhost:3000** in a browser to view the app.
+- Press **Ctrl + C** in the terminal to stop the server when done.
